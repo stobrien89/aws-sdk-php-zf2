@@ -2,7 +2,7 @@
 
 <phpunit
         bootstrap="./tests/bootstrap.php"
-        convertDeprecationsToExceptions="false"
+        convertNoticesToExceptions="false"
 >
 
     <testsuites>
