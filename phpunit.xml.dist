@@ -7,7 +7,7 @@
 
     <testsuites>
         <testsuite name="AWS Module Test Suite">
-            <directory>./tests/</directory>
+            <directory>./foo/</directory>
         </testsuite>
     </testsuites>
 
