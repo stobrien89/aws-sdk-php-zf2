@@ -2,12 +2,12 @@
 
 <phpunit
         bootstrap="./tests/bootstrap.php"
-        convertNoticeToException="false"
+        convertDeprecationsToExceptions="false"
 >
 
     <testsuites>
         <testsuite name="AWS Module Test Suite">
-            <directory>./foo/</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 
